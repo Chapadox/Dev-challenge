@@ -19,7 +19,7 @@ function postBooks(books) {
 }
 
 const books = app => {
-    app.route('/books')
+    app.route('/books/:id?')
         .get((req, res) => {
             res.send(getBooks())
         })
@@ -28,15 +28,39 @@ const books = app => {
             const books = getBooks()
 
             books.map(item => {
-                if(item.id === req.body.id) {
+                if (item.id === req.body.id) {
                     req.body.id++
                     return req.body
                 }
             })
+
             books.push(req.body)
             postBooks(books)
-            res.status(200).send('a')
+
+            res.status(200).send('Seu livro foi adicionado.')
         })
+
+        .put((req, res) => {
+            const books = getBooks()
+
+            postBooks(books.map(book => {
+                if (book.id === req.params.id) {
+                    return {
+                        ...book,
+                        ...req.body
+                    }
+                }
+                return book
+            }))
+            res.status(201).send('Livro atualizado')
+        })
+
+        .delete((req, res) => {
+            const books = getBooks()
+
+            postBooks(books.filter(book => book.id !== Number(req.params.id)))
+            res.status(200).send('Livro deletado')
+        }) 
 }
 
 module.exports = books

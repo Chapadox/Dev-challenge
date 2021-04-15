@@ -1,10 +1,18 @@
 [
 	{
-		"id": "1",
+		"id": 1,
 		"titulo": "Paraiso X",
-		"capa": "https://images-na.ssl-images-amazon.com/images/I/51LVQ25la4L._SX320_BO1,204,203,200_.jpg",
+		"capa": "https://i.imgur.com/UH3IPXw.jpg",
 		"editora": "Panini Group",
-		"autores": "Jim Krueger",
-		"descricao": "Reunindo os talentos de Alex Ross, Jim Krueger e Doug Braithwaite, Paraíso X conclui a saga iniciada por Terra X e Universo X. No volume anterior, o Capitão Marvel liderou uma cruzada contra a Morte e a derrotou. Mas agora que ela está “morta”, ninguém mais poderá morrer: os doentes terão que permanecer agonizantes nos hospitais, com seu corpo alquebrado além de qualquer ajuda e redenção. Não há nenhum Paraíso à sua espera, assim como nenhum fim para seu sofrimento. Diante de tamanha tragédia e dor, e da constatação de que o fim da Morte acarretou um problema ainda maior, caberá aos super-heróis remanescentes buscar uma solução para esta triste sina, o que não será alcançado sem provação e sacrifício. Paraíso X reúne alguns dos mais importantes personagens do Universo Marvel, como o Homem-Aranha, o Capitão América, o Demolidor, o Justiceiro e muitos outros, lançando luz sobre um possível e sombrio futuro que aguarda os maiores personagens da Casa das Ideias."
+		"autores": "JK Rowling",
+		"descricao": "Reunindo os talentos de Alex Ross, Jim Krueger e Doug Braithwaite, Paraíso X conclui a saga iniciada por Terra X e Universo X. No volume anterior, o Capitão Marvel liderou uma cruzada contra a Morte e a derrotou. Mas agora que ela está “morta”, ninguém mais poderá morrer: os doentes terão que permanecer agonizantes nos hospitais, com seu corpo alquebrado além de qualquer ajuda e redenção. Não há nenhum Paraíso à sua espera, assim como nenhum fim para seu sofrimento. Diante de tamanha tragédia e dor, e da constatação de que o fim da Morte acarretou um problema ainda maior, caberá aos super-heróis remanescentes buscar uma solução para esta triste sina, o que não será alcançado sem provação e sacrifício. Paraíso X reúne alguns dos mais importantes personagens do Universo Marvel, como o Homem-Aranha, o Capitão América, o Demolidor, o Justiceiro e muitos outros, lançando luz sobre um possível e sombrio futuro que aguarda os maiores personagens da Casa das Ideias.",
+		"edtirora": "Rocco"
+	},
+	{
+		"id": 2,
+		"titulo": "Harry Potter",
+		"capa": "https://i.imgur.com/UH3IPXw.jpg",
+		"edtirora": "Rocco",
+		"autores": "JK Rowling"
 	}
 ]
